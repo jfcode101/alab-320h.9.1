@@ -1,11 +1,12 @@
+import React from "react";
 import TodoItem from "../todo-item/TodoItem";
 
-function TodoList() {
+function TodoList({ todos, dispatch }) {
   return (
-    <ul>
-      <h2>Todo List</h2>
-
-      <TodoItem />
+    <ul className="cl-list">
+      {todos.map((todo) => (
+        <TodoItem key={todo.id} todo={todo} dispatch={dispatch} />
+      ))}
     </ul>
   );
 }
