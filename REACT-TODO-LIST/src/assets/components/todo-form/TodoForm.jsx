@@ -6,10 +6,10 @@ function TodoForm({ dispatch }) {
 
   // function to handle form submission
   const handleSubmit = (e) => {
-    // preevent auto submission
+    // prevent auto submission
     e.preventDefault();
     if (inputVal.trim()) {
-      dispatch({ type: "ADD_TASK", title: inputVal });
+      dispatch({ type: "ADD_TODO", title: inputVal });
       // clear the input fiel
       setInputVal("");
     }
