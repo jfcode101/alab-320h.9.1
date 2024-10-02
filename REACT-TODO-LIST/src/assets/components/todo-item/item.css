@@ -13,7 +13,8 @@
   align-items: center;
 
   &:nth-child(odd) {
-    background-color: var(--msuGreen-clr);
+    background-color: var(--oxley-clr);
+    color: black;
   }
   &:nth-child(even) {
     background-color: var(--amrcnSilver-clr);

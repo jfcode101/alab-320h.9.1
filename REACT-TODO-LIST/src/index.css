@@ -33,3 +33,9 @@ body {
     align-items: center;
   }
 }
+
+h1 {
+  margin: 2rem 0 1rem;
+  font: normal 700 2.5rem var(--montserrat-fnt);
+  color: var(--msuGreen-clr);
+}

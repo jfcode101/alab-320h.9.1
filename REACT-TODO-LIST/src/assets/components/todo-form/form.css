@@ -1,0 +1,11 @@
+@import url(../../../index.css);
+
+.cls-form {
+  border: none;
+  outline: none;
+  /* padding: 1rem; */
+
+  .cls-frm-input {
+    width: 100%;
+  }
+}

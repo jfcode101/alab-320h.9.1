@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./form.css";
 
 function TodoForm({ dispatch }) {
   // state to store the input value
@@ -23,6 +24,7 @@ function TodoForm({ dispatch }) {
         // add an onchange event listener
         onChange={(e) => setInputVal(e.target.value)}
         placeholder="Add a task to you Todo list"
+        className="cls-frm-input"
       />
       <button type="submit">Add Task</button>
     </form>
