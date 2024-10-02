@@ -26,7 +26,7 @@ function TodoForm({ dispatch }) {
         placeholder="Add a task to you Todo list"
         className="cls-frm-input"
       />
-      <button type="submit">Add Task</button>
+      <button type="submit" className="btn-submit">Add Task</button>
     </form>
   );
 }
