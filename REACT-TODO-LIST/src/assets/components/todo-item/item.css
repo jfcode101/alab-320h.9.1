@@ -10,7 +10,8 @@
   padding: 0.5rem;
   display: flex;
   align-items: center;
-  transition: ;
+  transition-property: background-color, color;
+  transition: 300ms ease-in-out;
 
   &:nth-child(odd) {
     background-color: var(--oxley-clr);

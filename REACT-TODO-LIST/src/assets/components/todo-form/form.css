@@ -6,13 +6,23 @@
 
   .cls-frm-input,
   .btn-submit {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
+    border-radius: 5px;
   }
 
   .cls-frm-input {
     outline: none;
+    border: 0;
+    background-color: var(--brightGray-clr);
     margin: 0 1rem 2rem 0;
     width: 375px;
+    font: italic 400 1rem var(--montserrat-fnt);
+    color: var(--ironGray-clr);
+    transition: border 300ms ease-in-out;
+
+    &:hover {
+      border-bottom: 2px solid var(--ironGray-clr);
+    }
   }
 
   .btn-submit {
@@ -20,5 +30,7 @@
     outline: none;
     background-color: var(--msuGreen-clr);
     color: var(--brightGray-clr);
+    font: normal 500 1rem var(--montserrat-fnt);
+    cursor: pointer;
   }
 }
