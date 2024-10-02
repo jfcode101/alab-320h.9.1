@@ -1,0 +1,35 @@
+/* Montserrat and Open Sans fonr */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  /* drk colors */
+  --msuGreen-clr: #1a3636;
+
+  /* light colors  */
+  --amrcnSilver-clr: #c4dad2;
+  --oxley-clr: #6a9c89;
+  --brightGray-clr: #e9efec;
+
+  /* fonts */
+  --montserrat-fnt: "Montserrat", sans-serif;
+  --open-sans-fnt: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+
+  /* main class */
+  .cls-main {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}

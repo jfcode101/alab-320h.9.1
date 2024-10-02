@@ -1,6 +1,7 @@
 import { useReducer } from "react";
 import TodoForm from "./assets/components/todo-form/TodoForm";
 import TodoList from "./assets/components/todo-list/TodoList";
+import "./index.css";
 
 const initialState = [
   {

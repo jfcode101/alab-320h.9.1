@@ -1,5 +1,6 @@
-import React from "react";
+// import React from "react";
 import TodoItem from "../todo-item/TodoItem";
+// import "./item.css";
 
 function TodoList({ todos, dispatch }) {
   return (

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./item.css";
 
 const TodoItem = ({ todo, dispatch }) => {
   // state to track editing — boolean
@@ -18,7 +19,7 @@ const TodoItem = ({ todo, dispatch }) => {
   };
 
   return (
-    <li className="todo-item">
+    <li className="cls-item">
       <input
         type="checkbox"
         checked={todo.completed}

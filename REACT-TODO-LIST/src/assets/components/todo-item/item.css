@@ -1,0 +1,37 @@
+@import url(../../../index.css);
+
+/* list item */
+.cls-item {
+  color: var(--amrcnSilver-clr);
+  font: normal 500 1rem var(--open-sans-fnt);
+  list-style-type: none;
+  border-radius: 5px;
+
+  margin-bottom: 0.25rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+
+  &:nth-child(odd) {
+    background-color: var(--msuGreen-clr);
+  }
+  &:nth-child(even) {
+    background-color: var(--amrcnSilver-clr);
+    color: var(--msuGreen-clr);
+  }
+
+  /* checkbox */
+  input[type="checkbox"] {
+    /* outline: none;
+    border: none; */
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+
+    &:checked {
+      background-color: #4caf50;
+      color: red;
+    }
+  }
+}
