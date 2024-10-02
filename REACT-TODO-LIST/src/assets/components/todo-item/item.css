@@ -10,6 +10,7 @@
   padding: 0.5rem;
   display: flex;
   align-items: center;
+
   transition-property: background-color, color;
   transition: 300ms ease-in-out;
 
@@ -46,5 +47,32 @@
       background-color: #4caf50;
       color: red;
     }
+  }
+
+  .btn-item {
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: var(--brightGray-clr);
+    cursor: pointer;
+    font: normal 400 1rem var(--open-sans-fnt);
+    color: var(--msuGreen-clr);
+    transition-property: opacity;
+    transition: 300ms ease-in-out;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  .btn-edit {
+    background-color: #eee4b1;
+  }
+
+  .btn-delete {
+    background-color: #c08080;
+    color: var(--brightGray-clr);
   }
 }

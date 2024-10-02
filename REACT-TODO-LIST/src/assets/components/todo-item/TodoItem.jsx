@@ -38,10 +38,13 @@ const TodoItem = ({ todo, dispatch }) => {
         <button onClick={handleSave}>Save</button>
       ) : (
         <>
-          <button onClick={handleEdit}>Edit</button>
+          <button onClick={handleEdit} className="btn-item btn-edit">
+            Edit
+          </button>
           <button
             onClick={() => dispatch({ type: "DELETE_TODO", id: todo.id })}
             disabled={!todo.completed}
+            className="btn-item btn-delete"
           >
             Delete
           </button>
